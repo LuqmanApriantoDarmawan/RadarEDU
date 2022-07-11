@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADAR EDU Website</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url(./images/bg-texture.png);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Back To Top starts-->
+    <div class="panah">
+        <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+    </div>
+    <!-- Back To Top ends -->
+
+    <!-- Navbar Start -->
+    <nav>
+        <div class="container nav-container">
+            <a>
+                <h4>RADAR <span>EDU</span></h4>
+            </a>
+            <ul class="nav-menu">
+                <li><a style="font-size: 1rem;" href="index.html">Home</a></li>
+                <li><a style="font-size: 1rem;" href="about.html">About</a></li>
+                <li><a style="font-size: 1rem;" href="courses.html">Courses</a></li>
+                <li><a style="font-size: 1rem;" href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- header Start -->
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1> Grow your skills to andvance your <br> career path </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusamus veritatis soluta
+                    utsunt voluptatum autem unde?
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header-right">
+                <div class="header-right-image">
+                    <img src="images/Education-rafiki.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Categories Start -->
+    <section class="categories">
+        <div class="container categories-container">
+            <div class="categories-left">
+                <h1>Categories</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum doloremque in veritatis
+                    ipsa mollitia beatae fugiat, maiores magni ab blanditiis soluta ex quibusdam?</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories-right">
+
+                <article class="category">
+                    <span class="category-icon">
+                        <i class="uil uil-windows"></i>
+                    </span>
+                    <h5>Windows Operating System</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, ad.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon">
+                        <i class="uil uil-arrow"></i>
+                    </span>
+                    <h5>Development</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, ad.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon">
+                        <i class="uil uil-palette"></i>
+                    </span>
+                    <h5>Graphic Design</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, ad.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon">
+                        <i class="uil uil-desktop-alt"></i>
+                    </span>
+                    <h5>IT and Software </h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, ad.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon">
+                        <i class="uil uil-megaphone"></i>
+                    </span>
+                    <h5>Marketing</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, ad.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon">
+                        <i class="uil uil-building"></i>
+                    </span>
+                    <h5>Business</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, ad.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+    <!-- Categories End -->
+
+    <!-- Courses Start -->
+    <section class="courses">
+        <h2>Our Populer Courses</h2>
+        <div class="container courses-container">
+            <article class="course">
+                <div class="course-image">
+                    <img src="images/course1.jpg">
+                </div>
+                <div class="course-info">
+                    <h4>Become a Certified HTML, CSS, and JavaScript <br> Web Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet qui tempora odit! Est dolorem
+                        doloremque minus.
+                    </p>
+                    <a href="courses.html" class="btn">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course-image">
+                    <img src="images/course2.jpg">
+                </div>
+                <div class="course-info">
+                    <h4>Computer Basics for the Simple Beginner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet qui tempora odit! Est dolorem
+                        doloremque minus. Lorem ipsum dolor sit amet.
+                    </p>
+                    <a href="courses.html" class="btn">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course-image">
+                    <img src="images/course3.jpg">
+                </div>
+                <div class="course-info">
+                    <h4>Digital Marketing : <br> The Ultimate Guide to Strategic Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet qui tempora odit! Est dolorem
+                        doloremque minus.
+                    </p>
+                    <a href="courses.html" class="btn">Learn More</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+    <!-- Courses End -->
+
+    <!-- Testimonials Start -->
+    <section class="container testimonials-container mySwiper">
+        <h2>Students' Testimonials</h2>
+        <div class="swiper-wrapper">
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Adam Collins</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate hic maxime dicta
+                        harum aperiam iste perspiciatis eligendi dignissimos tenetur voluptas aliquid porro odit.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar2.jpg" alt="">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Ashlee Randall</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate hic maxime dicta
+                        harum aperiam iste perspiciatis eligendi dignissimos tenetur voluptas aliquid porro odit.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar3.jpg" alt="">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Josh Blake</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate hic maxime dicta
+                        harum aperiam iste perspiciatis eligendi dignissimos tenetur voluptas aliquid porro odit.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Bella Swan</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate hic maxime dicta
+                        harum aperiam iste perspiciatis eligendi dignissimos tenetur voluptas aliquid porro odit.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar5.jpg" alt="">
+                </div>
+                <div class="testimonial-info">
+                    <h5>Emiley McArthur</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate hic maxime dicta
+                        harum aperiam iste perspiciatis eligendi dignissimos tenetur voluptas aliquid porro odit.</p>
+                </div>
+            </article>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- Testimonials End -->
+
+    <!-- Footer Start -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> RADAR EDU </h3>
+                <p>Cum sociis natoque penatibus et magnis <br> dis parturient montes, nascetur ridiculus. <br>
+                    Donec quam felis</p>
+
+            </div>
+
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"> <i class="fas fa-angle-right"></i> Add your testimonial</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> Custom computers </a>
+                <a href="#"> <i class="fas fa-angle-right"></i> Book an engineer </a>
+            </div>
+
+            <div class="box">
+                <h3>Privacy</h3>
+                <a href="#"> <i class="fas fa-angle-right"></i> Privacy Policy </a>
+                <a href="#"> <i class="fas fa-angle-right"></i> Terms and Conditions </a>
+                <a href="#"> <i class="fas fa-angle-right"></i> Refund Policy </a>
+            </div>
+
+            <div class="box">
+                <h3>Connect With Us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> RADAR TEKNOLOGI </a>
+                <a href="#"> <i class="fab fa-twitter"></i> RADAR TEKNOLOGI </a>
+                <a href="#"> <i class="fab fa-instagram"></i> RADAR TEKNOLOGI </a>
+            </div>
+
+
+        </div>
+
+        <div class="credit"> <span> RADAR EDU </span> © 2022 | all rights reserved </div>
+
+    </section>
+
+    <!-- Footer End -->
+
+
+    <!-- Java Script Link -->
+    <script src="main.js"></script>
+
+    <!-- Swiperjs Link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // When window width is > 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
+<!-- https://udemy.com/courses/it-and-software/https://storyset.com/education -->
